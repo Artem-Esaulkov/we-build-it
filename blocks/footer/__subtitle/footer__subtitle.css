@@ -1,0 +1,11 @@
+.footer__subtitle {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  margin: 0;
+  padding: 0;
+}

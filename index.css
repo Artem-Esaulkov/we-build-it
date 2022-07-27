@@ -45,3 +45,18 @@
 @import url(./blocks/services/__card/services__card.css);
 @import url(./blocks/services/__card-title/services__card-title.css);
 @import url(./blocks/services/__text/services__text.css);
+/* footer */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__container/footer__container.css);
+@import url(./blocks/footer/__title/footer__title.css);
+@import url(./blocks/footer/__subtitle/footer__subtitle.css);
+@import url(./blocks/footer/__cards/footer__cards.css);
+@import url(./blocks/footer/__card-image/footer__card-image.css);
+@import url(./blocks/footer/__card/_1/footer__card_1.css);
+@import url(./blocks/footer/__card/_2/footer__card_2.css);
+@import url(./blocks/footer/__caption/footer__caption.css);
+@import url(./blocks/footer/__form/footer__form.css);
+@import url(./blocks/footer/__input/footer__input.css);
+@import url(./blocks/footer/__text/footer__text.css);
+@import url(./blocks/footer/__submit/footer__submit.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);

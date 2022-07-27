@@ -1,0 +1,5 @@
+.footer__cards {
+  display: flex;
+  width: max-content;
+  margin: 64px auto 153px;
+}

@@ -1,0 +1,14 @@
+.footer__caption {
+  font-family: "HelveticaNeueLTProLt", sans-serif;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #898888;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.footer__caption:hover {
+  color: #000;
+}

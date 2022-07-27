@@ -1,0 +1,17 @@
+.footer__text {
+    min-height: 195px;
+    border: 1px solid #999;
+    color: #000;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    padding-top: 22px;
+    padding-left: 22px;
+  }
+  
+  .footer__input::placeholder {
+    color: #898888;
+  }
+  
