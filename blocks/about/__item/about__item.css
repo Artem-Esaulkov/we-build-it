@@ -1,9 +1,16 @@
 .about__item {
-  padding: 79px 13px 98px;
+  padding: 80px 13px;
   margin: 0;
   background-color: #181818;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .about__item {
+    justify-content: start;
+    padding: 0 13px;
+  }
 }

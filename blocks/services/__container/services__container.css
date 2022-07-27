@@ -4,3 +4,9 @@
   padding: 176px 0 155px;
   text-align: center;
 }
+
+@media screen and (max-width: 720px) {
+  .services__container {
+    padding: 120px 0;
+  }
+}

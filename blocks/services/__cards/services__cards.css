@@ -3,3 +3,10 @@
   margin: 138px 16px 0;
   gap: 81px;
 }
+
+@media screen and (max-width: 900px) {
+  .services__cards {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+}

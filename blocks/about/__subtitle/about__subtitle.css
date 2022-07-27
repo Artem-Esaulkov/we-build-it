@@ -6,4 +6,11 @@
   letter-spacing: 0.02em;
   color: #b7b7b7;
   text-align: justify;
+  margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .about__subtitle {
+    text-align: center;
+  }
 }

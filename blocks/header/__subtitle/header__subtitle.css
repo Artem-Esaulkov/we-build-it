@@ -9,3 +9,11 @@
   margin: 0 0 43px;
   padding: 0;
 }
+
+@media screen and (max-width: 720px) {
+  .header__subtitle {
+    max-width: 300px;
+    line-height: 1.5;
+    margin: 0 auto 43px;
+  }
+}

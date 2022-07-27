@@ -3,4 +3,5 @@
   display: flex;
   gap: 59px;
   padding: 0;
+  width: max-content;
 }

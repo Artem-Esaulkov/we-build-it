@@ -1,5 +1,5 @@
 .footer__form {
-  width: 770px;
+  width: min(770px, calc(100vw - 60px));
   display: flex;
   flex-direction: column;
   gap: 20px;

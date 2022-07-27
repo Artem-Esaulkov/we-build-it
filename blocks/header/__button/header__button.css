@@ -1,4 +1,10 @@
 .header__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 188px;
+  height: 57px;
   background-color: transparent;
   border: 1px solid #000;
   text-transform: uppercase;
@@ -8,14 +14,21 @@
   font-weight: 400;
   letter-spacing: 0.04em;
   color: #000;
-  padding: 25px 52px;
+  /* padding: 25px 52px; */
   transition: color 0.5s ease;
   transition: border-color 0.5s ease;
-  margin-bottom: 206px;
+  margin: 0 auto 206px;
+  text-decoration: none;
 }
 
 .header__button:hover {
   cursor: pointer;
   color: #898888;
   border-color: #898888;
+}
+
+@media screen and (max-width: 720px) {
+  .header__button {
+    margin-bottom: 120px;
+  }
 }

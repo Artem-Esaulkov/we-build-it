@@ -1,3 +1,9 @@
 .footer__card_2 {
   margin-right: 97px;
 }
+
+@media screen and (max-width: 520px) {
+  .footer__card_2 {
+    margin: 0;
+  }
+}

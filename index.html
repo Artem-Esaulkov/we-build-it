@@ -9,8 +9,9 @@
 </head>
 <body class="page">
     <header class="header">
+        <div class="header__burger-icon"></div>
         <div class="header__container">
-            <nav class="header__menu">
+            <nav class="header__menu header__menu_desktop">
                 <div class="header__menu-part">
                     <a href="#" class="header__link header__link_active">Home</a>
                     <a href="#about" class="header__link">About Us</a>
@@ -23,9 +24,24 @@
                     <a href="#contacts" class="header__link">Contact Us</a>
                 </div>
             </nav>
+            <nav class="header__menu header__menu_mobile">
+                <div class="header__menu-part header__menu-part_mobile">
+                    <a href="#" class="header__link header__link_active">Home</a>
+                    <a href="#about" class="header__link">About Us</a>
+                    <a href="#team" class="header__link">Team</a>
+                </div>
+                <img src="./img/layers.png" alt="logo" class="header__logo header__logo_mobile">
+                <div class="header__menu-part header__menu-part_mobile">
+                    <a href="#services" class="header__link">Services</a>
+                    <a href="" class="header__link">Blog</a>
+                    <a href="#contacts" class="header__link">Contact Us</a>
+                </div>
+            </nav>
             <h1 class="header__title">We build it with passion</h1>
             <p class="header__subtitle">Just to be clear, we do this for fun not for you, just kidding.</p>
-            <button class="header__button">Read more</button>
+            <form action="#about">
+                <button class="header__button">Read more</button>
+            </form>
         </div>
     </header>
     <main class="content">
@@ -138,5 +154,7 @@
             <p class="footer__copyright">Copyright © Kenan Hamidic. All rights reserved.</p>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/anchors.js"></script>
 </body>
 </html>

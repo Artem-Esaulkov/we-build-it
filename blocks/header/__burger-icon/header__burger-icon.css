@@ -1,0 +1,42 @@
+.header__burger-icon {
+    display: none;
+  }
+  
+  @keyframes icon-active {
+      0% {
+          transform: rotate(0);
+      }
+  
+      100% {
+          transform: rotate(90deg);
+      }
+  }
+  
+  @keyframes icon-passive {
+      0% {
+          transform: rotate(90deg);
+      }
+  
+      100% {
+          transform: rotate(0);
+      }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .header__burger-icon {
+      display: block;
+      background-image: url(../../../img/burger-icon.svg);
+      background-size: contain;
+      width: 33px;
+      height: 20px;
+      position: absolute;
+      top: 50px;
+      right: 30px;
+      z-index: 5;
+    }
+  
+    .header__burger-icon_active {
+      animation: icon-active 1s;
+      transform: rotate(90deg);
+    }
+  }

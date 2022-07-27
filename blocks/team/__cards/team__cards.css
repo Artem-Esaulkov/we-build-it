@@ -4,3 +4,23 @@
   margin: 131px 101px 150px;
   padding: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .team__cards {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .team__cards {
+    flex-direction: column;
+    gap: 50px;
+    margin: 65px 101px 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .team__cards {
+    margin: 65px 0 100px;
+  }
+}
