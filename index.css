@@ -32,3 +32,16 @@
 @import url(./blocks/team/__socials/team__socials.css);
 @import url(./blocks/team/__button/_twitter/team__button_twitter.css);
 @import url(./blocks/team/__button/_instagram/team__button_instagram.css);
+/* services */
+@import url(./blocks/services/services.css);
+@import url(./blocks/services/__container/services__container.css);
+@import url(./blocks/services/__title/services__title.css);
+@import url(./blocks/services/__subtitle/services__subtitle.css);
+@import url(./blocks/services/__cards/services__cards.css);
+@import url(./blocks/services/__image/services__image.css);
+@import url(./blocks/services/__image/_line/services__image_line.css);
+@import url(./blocks/services/__image/_heart/services__image_heart.css);
+@import url(./blocks/services/__image/_cloud/services__image_cloud.css);
+@import url(./blocks/services/__card/services__card.css);
+@import url(./blocks/services/__card-title/services__card-title.css);
+@import url(./blocks/services/__text/services__text.css);

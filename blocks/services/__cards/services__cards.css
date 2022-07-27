@@ -1,0 +1,5 @@
+.services__cards {
+  display: flex;
+  margin: 138px 16px 0;
+  gap: 81px;
+}

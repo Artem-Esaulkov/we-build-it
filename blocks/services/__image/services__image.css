@@ -1,0 +1,9 @@
+.services__image {
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  background: no-repeat center center;
+  background-size: 64px 54px;
+  margin: 0 auto;
+}
