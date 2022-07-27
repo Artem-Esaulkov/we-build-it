@@ -1,0 +1,11 @@
+.header__subtitle {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  color: #898888;
+  margin: 0 0 43px;
+  padding: 0;
+}

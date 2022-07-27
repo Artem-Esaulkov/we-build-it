@@ -1,0 +1,17 @@
+.header__link {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #989696;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.header__link:hover {
+  color: #010101;
+}

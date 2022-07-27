@@ -1,0 +1,6 @@
+.header__menu-part {
+  display: flex;
+  gap: 43px;
+  margin: 0;
+  padding: 0;
+}
