@@ -1,0 +1,7 @@
+.team__socials {
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}

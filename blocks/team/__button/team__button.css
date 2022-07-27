@@ -1,0 +1,13 @@
+.team__button {
+  width: 21px;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.team__button:hover {
+  opacity: 0.7;
+}

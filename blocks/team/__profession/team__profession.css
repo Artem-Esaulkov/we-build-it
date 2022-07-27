@@ -1,0 +1,11 @@
+.team__profession {
+  font-family: "HelveticaNeueLTProMd", sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #b3b3b3;
+  margin: 0 0 22px;
+  text-align: center;
+  white-space: nowrap;
+}

@@ -19,3 +19,16 @@
 @import url(./blocks/about/__item/about__item.css);
 @import url(./blocks/about/__title/about__title.css);
 @import url(./blocks/about/__subtitle/about__subtitle.css);
+/* team */
+@import url(./blocks/team/team.css);
+@import url(./blocks/team/__container/team__container.css);
+@import url(./blocks/team/__title/team__title.css);
+@import url(./blocks/team/__subtitle/team__subtitle.css);
+@import url(./blocks/team/__cards/team__cards.css);
+@import url(./blocks/team/__card/team__card.css);
+@import url(./blocks/team/__name/team__name.css);
+@import url(./blocks/team/__profession/team__profession.css);
+@import url(./blocks/team/__button/team__button.css);
+@import url(./blocks/team/__socials/team__socials.css);
+@import url(./blocks/team/__button/_twitter/team__button_twitter.css);
+@import url(./blocks/team/__button/_instagram/team__button_instagram.css);

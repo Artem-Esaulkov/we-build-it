@@ -1,0 +1,6 @@
+.team__cards {
+  display: flex;
+  gap: 232px;
+  margin: 131px 101px 150px;
+  padding: 0;
+}
