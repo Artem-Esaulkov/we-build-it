@@ -1,0 +1,9 @@
+.about__item {
+  padding: 79px 13px 98px;
+  margin: 0;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+.about__title {
+  font-family: "HelveticaNeueLTProLd", sans-serif;
+  font-size: 48px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  margin: 0;
+  margin-bottom: 27px;
+}
